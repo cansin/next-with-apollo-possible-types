@@ -1,45 +1,50 @@
 {
   "name": "next-with-apollo-possible-types",
   "version": "1.0.0",
-  "description": "Higher order Next.js config to generate GraphQL fragment types for Apollo ",
-  "main": "index.js",
   "private": false,
-  "dependencies": {
-    "prebuild-webpack-plugin": "^1.1.1"
-  },
-  "devDependencies": {
-    "babel-eslint": "^10.1.0",
-    "eslint": "^6.8.0",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-import": "^2.20.2",
-    "eslint-plugin-prettier": "^3.1.3",
-    "jest": "^26.0.1",
-    "prettier": "^2.0.5",
-    "webpack": "^4.43.0"
-  },
-  "peerDependencies": {
-    "webpack": "^4.43.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cansin/next-with-apollo-possible-types.git"
-  },
+  "description": "Higher order Next.js config to generate GraphQL fragment types for Apollo ",
   "keywords": [
     "next.js",
     "apollo",
     "possibleTypes"
   ],
+  "homepage": "https://github.com/cansin/next-with-apollo-possible-types#readme",
+  "bugs": {
+    "url": "https://github.com/cansin/next-with-apollo-possible-types/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cansin/next-with-apollo-possible-types.git"
+  },
+  "license": "MIT",
   "author": {
     "name": "Cansin Yildiz",
     "email": "cansinyildiz@gmail.com",
     "url": "https://www.cansinyildiz.com/"
   },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/cansin/next-with-apollo-possible-types/issues"
-  },
-  "homepage": "https://github.com/cansin/next-with-apollo-possible-types#readme",
+  "main": "index.js",
   "scripts": {
     "test": "eslint . && jest"
+  },
+  "dependencies": {
+    "prebuild-webpack-plugin": "^1.1.1"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.17.0",
+    "@babel/preset-env": "^7.18.0",
+    "eslint": "^8.16.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jest": "^28.1.0",
+    "prettier": "^2.6.2",
+    "webpack": "^5.72.1"
+  },
+  "peerDependencies": {
+    "next": ">=10",
+    "webpack": ">=4.43"
+  },
+  "engines": {
+    "node": ">=14"
   }
 }
