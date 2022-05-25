@@ -1,6 +1,6 @@
 {
   "name": "next-with-apollo-possible-types",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "private": false,
   "description": "Higher order Next.js config to generate GraphQL fragment types for Apollo ",
   "keywords": [
