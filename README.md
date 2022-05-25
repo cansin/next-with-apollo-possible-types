@@ -33,7 +33,7 @@ module.exports = withPossibleTypes({
 });
 ```
 
-Add `possibleTypes.json` your `.gitignore`
+Add `possibleTypes.json` to your `.gitignore`
 
 ```git
 possibleTypes.json
