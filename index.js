@@ -21,10 +21,8 @@ function withApolloPossibleTypes(nextConfig = {}) {
         return config;
       }
 
-      const {
-        gqlUrl = "/graphql",
-        output = "./possibleTypes.json",
-      } = possibleTypes;
+      const { gqlUrl = "/graphql", output = "./possibleTypes.json" } =
+        possibleTypes;
 
       console.log("> Generating Apollo possibleTypes");
       console.log(`\t> GraphQL url: "${gqlUrl}"`);
