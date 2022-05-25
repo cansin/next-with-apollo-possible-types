@@ -1,8 +1,9 @@
 # next-with-apollo-possible-types
 
+[![tests](https://github.com/cansin/next-with-apollo-possible-types/actions/workflows/tests.yml/badge.svg)]()
+[![codeql](https://github.com/cansin/next-with-apollo-possible-types/actions/workflows/codeql-analysis.yml/badge.svg)]()
 [![size](https://img.shields.io/bundlephobia/minzip/next-with-apollo-possible-types)](https://bundlephobia.com/result?p=next-with-apollo-possible-types)
 [![dependencies](https://img.shields.io/librariesio/release/npm/next-with-apollo-possible-types)](https://libraries.io/npm/next-with-apollo-possible-types)
-[![build](https://img.shields.io/travis/com/cansin/next-with-apollo-possible-types)](https://travis-ci.com/github/cansin/next-with-apollo-possible-types)
 [![downloads](https://img.shields.io/npm/dm/next-with-apollo-possible-types)](https://www.npmjs.com/package/next-with-apollo-possible-types)
 [![license](https://img.shields.io/github/license/cansin/next-with-apollo-possible-types)](https://github.com/cansin/next-with-apollo-possible-types/blob/master/LICENSE)
 
@@ -22,8 +23,8 @@ Update or create `next.config.js` with
 ```js
 const withPossibleTypes = require("next-with-apollo-possible-types");
 
-module.exports = withSitemap({
-  withPossibleTypes: {
+module.exports = withPossibleTypes({
+  possibleTypes: {
     gqlUrl: "http://localhost:8000/graphql",
   },
   // .
@@ -41,17 +42,12 @@ possibleTypes.json
 ## Configuration
 
 There are options you can use to customize the behavior of this plugin
-by adding `sitemap` object in the Next.js config in `next.config.js`.
-Alongside those given `sitemap` options, this library would also rely
-on your Next.js config values [`exportPathMap`](https://nextjs.org/docs/api-reference/next.config.js/exportPathMap),
-[`exportTrailingSlash`](https://nextjs.org/docs/api-reference/next.config.js/exportPathMap#adding-a-trailing-slash),
-and [`pageExtensions`](https://nextjs.org/docs/api-reference/next.config.js/custom-page-extensions)
-to come up with the correct `sitemap.xml` content.
+by adding `possibleTypes` object in the Next.js config in `next.config.js`.
 
 ```js
 const withPossibleTypes = require("next-with-apollo-possible-types");
 
-module.exports = withSitemap({
+module.exports = withPossibleTypes({
   possibleTypes: {
     gqlUrl: "https://www.example.com/graphql",
     output: "./path/to/possibleTypes.json"
