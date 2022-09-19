@@ -1,7 +1,7 @@
 # next-with-apollo-possible-types
 
-[![tests](https://github.com/cansin/next-with-apollo-possible-types/actions/workflows/tests.yml/badge.svg)]()
-[![codeql](https://github.com/cansin/next-with-apollo-possible-types/actions/workflows/codeql-analysis.yml/badge.svg)]()
+[![tests](https://github.com/cansin/next-with-apollo-possible-types/actions/workflows/tests.yml/badge.svg)](https://github.com/cansin/next-with-apollo-possible-types/actions/workflows/tests.yml)
+[![codeql](https://github.com/cansin/next-with-apollo-possible-types/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/cansin/next-with-apollo-possible-types/actions/workflows/codeql-analysis.yml)
 [![size](https://img.shields.io/bundlephobia/minzip/next-with-apollo-possible-types)](https://bundlephobia.com/result?p=next-with-apollo-possible-types)
 [![dependencies](https://img.shields.io/librariesio/release/npm/next-with-apollo-possible-types)](https://libraries.io/npm/next-with-apollo-possible-types)
 [![downloads](https://img.shields.io/npm/dm/next-with-apollo-possible-types)](https://www.npmjs.com/package/next-with-apollo-possible-types)
